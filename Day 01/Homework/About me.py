@@ -1,0 +1,12 @@
+name = "Luka"
+surname = "Gurgenidze"
+height = "177"
+age = "16"
+male = "male"
+script = "I am"
+script1 = "my surname is"
+script2 = "my age is"
+script3 = "my height is"
+script4 = "my gender is"
+space = " "
+print(script + space + name + space + script1 + space + surname + space + script2 + space + age + space + script3 + space + height + space + script4 + space + male)
