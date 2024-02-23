@@ -1,4 +1,7 @@
-"""მომხმარებელს შემოატანინეთ 3 რიცხვი. შეინახეთ ისინი ცვლადებში და მათზე ცალცალკე გამოიტანეთ print'ის მეშვეობით გამრავლება, გაყოფა, მიმატება, გამოკლება. (თუ არ იცით კონკრეტული მათემატიკური ოპერაციები დასერჩეთ google'ში. e.g: how to multiply numbers in python)"""
+"""მომხმარებელს შემოატანინეთ 3 რიცხვი. შეინახეთ ისინი ცვლადებში და მათზე
+ ცალცალკე გამოიტანეთ print'ის მეშვეობით გამრავლება,
+გაყოფა, მიმატება, გამოკლება. (თუ არ იცით კონკრეტული მათემატიკური ოპერაციები დასერჩეთ google'ში.
+ e.g: how to multiply numbers in python)"""
 
 print("You'll be asked to enter 3 numbers of your choice to complete mathemathical operations in order")
 number1 = int(input("Please enter a number: "))
