@@ -10,7 +10,7 @@ def quads():
     for i in range(len(list) - 1,-1,-1):
         if i % 4 == 0:
             quads_list.append(i)
-    return quads_list[0]
+    return quads_list[0]                  #in order to conclude result we return final value
 
 print(quads())
 
