@@ -1,0 +1,54 @@
+<!--1) შექმენით 5 ტიპის input და გატესტეთ როგორ მუშაობს, გამოიტანეთ br'ების მეშვეობით ლამაზად, კარგი ფორმა მიეცით.
+2) პირველ დავალებაში გაკეთებულ input'ებს მიუწერეთ კომენტარები და თქვენი სიტყვებით ახსენით რომელი რას აკეთებს. 
+ასევე ბოლოში მიამატეთ ახსნა როგორ და რისი მეშვეობით ვაკავშირებთ input'ს და label'ს.
+3) ასევე გატესტეთ input type number.-->
+
+
+<!--Required attribute creates obligation must requirement for user to enter text
+in order to be able to sumbit their data-->
+
+<form>
+    <label for="1">First Name:</label><!--Determines what user should enter in this case Name-->
+    <input type="text" id="1" required> <!--Asks for user text type user input-->
+
+
+    <br>
+    <br>
+
+    <label for="2">Last Name:</label><!--Determines what user should enter in this case Last Name-->
+    <input type="text" name="" id="2" required><!--Asks for user text type user input-->
+
+
+    <br>
+    <br>
+
+
+
+    <label for="3">Male</label><!--Radio option for Male gender-->
+    <input type="radio" name="" id="3" required><!--Creates radio-->
+
+    <br>
+    <br>
+
+    <label for="4">Female</label><!--Radio option for Female gender-->
+    <input type="radio" name="" id="4" required><!--Creates radio-->
+
+    <br>
+    <br>
+
+    <label for="5">Email:</label><!--Gives user idea about info that they have to enter-->
+    <input type="email" id="5" required><!--Creates email type input-->
+
+    <br>
+    <br>
+
+    <label for="6">Briskets amount:</label><!--Gives user idea about info that they have to enter-->
+    <input type="number" id="6" required><!--Asks for number input which can be raised-->
+
+    <br>
+    <br>
+
+</form>
+
+
+<input type="submit"><!--Collects data-->
