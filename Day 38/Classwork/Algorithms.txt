@@ -1,0 +1,14 @@
+Day 38 Algorithms:
+Learnt that users interact with kernel in linux
+Users are restricted with kernel in windows
+Users can't interact with system in mac
+
+When running program written in C it creates exe file 
+which can be run in cmd
+
+when writting code in python there's always interperator
+in memory to be able to run program while c
+doesn't require interperator in memory
+
+learnt what is virtual box
+

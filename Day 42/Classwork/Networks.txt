@@ -1,0 +1,7 @@
+Day 42:
+Learnt where our network pyshical cables wires
+lead to which i had been very curious about and
+wondered. Now I know that they all head from local
+network centers to bigger regional ones and finally
+to global one. Also learnt how client is connected
+to network servers and what is DNS.
