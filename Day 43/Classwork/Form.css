@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-size: large;
+}
+
+form{
+    background-color: aqua;
+}
+
+#sub{
+    background-color:  green;
+}
+
+#clear{
+    background-color: blue;
+}

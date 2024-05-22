@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(74, 148, 74);
+}
+
+
+#lukacredits {
+    text-align: right;
+}
+
+.credit{
+    width: 50;
+}
+
+#mainlogo {
+    width: 150;
+}
+
+#mainmenu{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.menuicons{
+    width: 150;
+    height: 75;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.account{
+    width: 150;
+    height: 50;
+}  
+
+.services{
+    display: inline-block;
+    width: 150;
+    height: 100;
+}
+
+.servicetext{
+    display: inline-block;
+}
+.greenservices{
+    display: inline-block;
+    text-align: center;
+}
