@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(150, 211, 211);
+}
+
+
+#lukacredits {
+    text-align: right;
+}
+
+.credit{
+    width: 50;
+}
+
+#profile{
+    width: 300;
+}
+
+.menubutton{
+    width: 150;
+    height: 50;
+}
+
+main{
+    text-align: center;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+}
+
+.projecticon{
+    width: 150;
+    height: 150;
+}
