@@ -1,0 +1,13 @@
+
+
+.container1 {
+    background-image: url(korea.webp);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}

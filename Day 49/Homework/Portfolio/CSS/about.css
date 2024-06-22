@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(150, 211, 211);
+}
+
+
+#connection{
+    text-align: right;
+}
+
+.icon{
+    width: 50;
+}
+
+#profile{
+    width: 300;
+}
+
+#navmenu{
+    text-align: center;
+}
+
+.navbutton{
+    width: 150;
+    height: 50;
+    background-color: rgb(117, 209, 209);
+    border-radius: 15px;
+}
+
+#infotext{
+    font-size: large;
+}

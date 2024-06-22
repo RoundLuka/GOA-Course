@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(2, 2, 2, 0.904)
+}
+
+
+#mainmenu{
+    text-align: left;
+}
+
+.icon{
+    width: 50;
+}
+
+#search{
+    font-size: large;
+    height: 50;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+
+#midicons{
+    text-align: center;
+}
+
+.midicon{
+    width: 50;
+    display: inline-block;
+    margin: 25px;
+}
+
+#righticons{
+    text-align: right;
+}
+
+.righticon{
+    width: 50;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+#cover{
+    text-align: center;
+}
+
+#coverpicture{
+    width: 1000;
+    height: 600;
+}
+
+.profilepanel{
+    display: inline-block;
+}
+
+#profile{
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+}
+
+#navmenu{
+    text-align: center;
+}
+
+#storybutton{
+    width: 150;
+    height: 50;
+    background-color: rgba(47, 112, 185, 0.904);
+}
+
+.navbutton{
+    width: 150;
+    height: 50;
+    background-color: rgba(2, 2, 2, 0.904);
+}
+
+#options{
+    width: 150;
+    height: 50;
+    background-color: rgba(15, 5, 5, 0.377);
+    font-size: large;
+}
+

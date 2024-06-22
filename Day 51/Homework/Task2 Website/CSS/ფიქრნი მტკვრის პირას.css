@@ -1,0 +1,121 @@
+.poetry-container {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #E76F51;
+}
+
+.quote {
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+/* Randomized styles for quotes up to #quote26 */
+#quote1 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote2 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote3 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}
+
+#quote4 {
+    font-family: "Arial", sans-serif;
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote5 {
+    font-weight: 500;
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote6 {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+#quote7 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote8 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote9 {
+    font-size: 18px;
+}
+
+#quote10 {
+    font-style: oblique;
+}
+
+#quote11 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote12 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote13 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}
+
+#quote14 {
+    font-family: "Arial", sans-serif;
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote15 {
+    font-weight: 500;
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote16 {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+#quote17 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote18 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote19 {
+    font-size: 18px;
+}
+
+#quote20 {
+    font-style: oblique;
+}
+
+#quote21 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote22 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote23 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}

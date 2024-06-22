@@ -1,0 +1,129 @@
+.poetry-container {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #E76F51;
+}
+
+.quote {
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+#quote1 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote2 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote3 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}
+
+#quote4 {
+    font-family: "Arial", sans-serif;
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote5 {
+    font-weight: 500;
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote6 {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+#quote7 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote8 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote9 {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+#quote10 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote11 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote12 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}
+
+#quote13 {
+    font-family: "Arial", sans-serif;
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote14 {
+    font-weight: 500;
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote15 {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+#quote16 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote17 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote18 {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+#quote19 {
+    font-size: large;
+    font-weight: 300;
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote20 {
+    font-style: italic;
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote21 {
+    font-weight: bold;
+    text-decoration: dotted overline #114405;
+}
+
+#quote22 {
+    font-family: "Arial", sans-serif;
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote23 {
+    font-weight: 500;
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote24 {
+    font-size: 20px;
+    text-decoration: line-through;
+}

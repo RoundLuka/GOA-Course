@@ -1,0 +1,155 @@
+.poetry-container {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #E76F51;
+}
+
+.quote { 
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+#quote1 {
+    font-size: large;
+}
+
+#quote2 {
+    font-weight: 300;
+}
+
+#quote3 {
+    font-weight: bold;
+}
+
+#quote4 {
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote5 {
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote6 {
+    text-decoration: dotted overline #114405;
+}
+
+#quote7 {
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote8 {
+    font-style: italic;
+}
+
+#quote9 {
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote10 {
+    font-weight: 500;
+}
+
+#quote11 {
+    font-size: 20px;
+}
+
+#quote12 {
+    text-decoration: line-through;
+}
+
+#quote13 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote14 {
+    font-family: "Arial", sans-serif;
+}
+
+#quote15 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote16 {
+    font-weight: bold;
+}
+
+#quote17 {
+    text-decoration: underline double #FFD700;
+}
+
+#quote18 {
+    text-decoration: dotted underline #00FF00;
+}
+
+#quote19 {
+    font-size: 18px;
+}
+
+#quote20 {
+    font-style: oblique;
+}
+
+/* Repeat some styles for variety */
+#quote21 {
+    font-size: large;
+}
+
+#quote22 {
+    font-weight: 300;
+}
+
+#quote23 {
+    font-weight: bold;
+}
+
+#quote24 {
+    text-decoration: dotted overline #FFBBAA;
+}
+
+#quote25 {
+    text-decoration: dashed underline #7c210a;
+}
+
+#quote26 {
+    text-decoration: dotted overline #114405;
+}
+
+#quote27 {
+    text-decoration: double line-through #cfaaff;
+}
+
+#quote28 {
+    font-style: italic;
+}
+
+#quote29 {
+    text-decoration: underline wavy #FF5733;
+}
+
+#quote30 {
+    font-weight: 500;
+}
+
+#quote31 {
+    font-size: 20px;
+}
+
+#quote32 {
+    text-decoration: line-through;
+}
+
+#quote33 {
+    text-decoration: underline dotted #8A2BE2;
+}
+
+#quote34 {
+    font-family: "Arial", sans-serif;
+}
+
+#quote35 {
+    text-decoration: dashed overline #4682B4;
+}
+
+#quote36 {
+    font-weight: bold;
+}
