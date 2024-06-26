@@ -1,0 +1,22 @@
+body {
+    background-image: url(background.png);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+}
+
+#framer {
+    display: flex;
+}
+
+#framer svg {
+    width: 30px;
+    height: 30px;
+}

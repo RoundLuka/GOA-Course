@@ -40,6 +40,12 @@ body {
     color: gray;
 }
 
+.buttons:hover {
+    width: 200px;
+    height: 80px;
+    transition: 0.25s;
+}
+
 
 .button {
     background-color: rgb(78, 28, 194);
@@ -52,6 +58,12 @@ body {
 #navbutton {
     width: 180px;
     height: 75px;
+}
+
+#navbutton:hover{
+    width: 200px;
+    height: 80px;
+    transition: 0.25s;
 }
 
 #content {
@@ -79,6 +91,12 @@ body {
     height: 75px;
 }
 
+#conbutton:hover {
+    width: 200px;
+    height: 80px;
+    transition: 0.25s;
+}
+
 #intro {
     width: 50%;
     height: 50%;
@@ -96,5 +114,6 @@ body {
     position: absolute;
     right: 400px;
     bottom: 120px;
-    
+    /*Would be easier with background position learnt late from recording*/
 }
+

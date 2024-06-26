@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*შექმენით გრიდი და ივარჯიშეთ gap ზე და grid template column სზე და ახსენით რას 
+აკეთებს ავტო მნიშვნელობა გრიდში და ასევე ახსენით თუ როგორ უნდა გამოთვალოთ 1fr*/
+
+/*For each auto value in grid, column is added
+In order to calculate 1fr have to divide total size of element by amount of factions it has*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-color: rgb(207, 216, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 1200px;
+    height: 1200px;
+
+    border: 5px solid red;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.child {
+    background-color: green;
+    border: 2px solid blue;
+}

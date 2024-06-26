@@ -1,0 +1,12 @@
+Algorithms&AI Day 55:
+
+Task: Prove that second diagonal in paralleogram is indeed subtraction of vectors a and b.
+
+Soultion:
+If we represent points: O,A,B and C as it is on image and name vectors in order:
+➡OA = a, ➡OB = b, subtraction of these vectors ➡ would be b - a
+as ➡OA - ➡OB = ➡AB, b - a would be ➡AB
+
+Conclusion:
+
+The second diagonal in paralleogram is indeed subtraction of vectors a and b.
