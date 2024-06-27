@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent {
+    width: 1000px;
+    height: 1000px;
+
+    border: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    row-gap: 20px;
+    column-gap: 50px;
+    box-sizing: border-box;
+}
+
+.child {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#boldPrint {
+    grid-column: 1 / 3;
+}
+
+#highlightedText {
+    grid-column: 3 / 6;
+}
+
+#map {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#diagram {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+#graph {
+    grid-column: 3 / 6;
+    grid-row: 2 / 5;
+}
+
+#rules {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+#pictureCaption {
+    grid-column: 1 / 4;
+    grid-row: 5 / 7;
+}
+
+#tableChart {
+    grid-column: 4 / 6;
+    grid-row: 5 / 7;
+}
+
+#tableOfContents {
+    grid-column: 1 / 2;
+    grid-row: 7 / 10;
+}
+
+#glossary {
+    grid-column: 2 / 4;
+    grid-row: 7 / 10;
+}
+
+#index {
+    grid-column: 4 / 6;
+    grid-row: 7 / 10;
+}
+
+#timeline {
+    grid-column: 1 / 3;
+}
