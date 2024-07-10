@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 27, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main h1 {
+    font-size: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loadingbar {
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 25px;
+    border: 3px solid rgb(199, 188, 188);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader {
+    width: 5%;
+    height: 90%;
+    transition: all 300ms linear 1s;
+    background-color: white;
+}
+
+#loader:hover {
+    width: 100%;
+    background-color: white;
+}

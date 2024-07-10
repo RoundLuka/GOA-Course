@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Transitions</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            #box {
+                width: 100px;
+                height: 100px;
+                background-color: brown;
+                transform: translate(-2px, -5px);
+                /*transition-property transition-duration transition-timing-function transition-delay*/
+                transition: all 300ms linear 1s;
+                font-size: 50px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                align-items: center;
+
+            }
+            #box:hover {
+                width: 100%;
+                border-radius: 0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="box"></div>
+        </div>
+    </body>
+</html>

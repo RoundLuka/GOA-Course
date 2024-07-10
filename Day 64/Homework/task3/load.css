@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes load {
+    from {
+        width: 5%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 90%;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    gap: 80px;
+}
+
+
+#logo {
+    width: 100px;
+}
+
+#loadingbar {
+    height: 5px;
+    width: 200px;
+    background-color: gray;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#loader {
+    width: 5%;
+    height: 90%;
+    background-color: white;
+
+    animation: load 3s linear 1;
+}
+

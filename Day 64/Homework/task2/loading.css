@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes load {
+    from {
+        width: 5%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: rgb(21, 31, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+#logo {
+    width: 800px;
+}
+
+#loadingbar {
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 25px;
+    border: 3px solid rgb(199, 188, 188);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 10px white;
+
+}
+
+#loader {
+    width: 5%;
+    height: 90%;
+    background-color: white;
+
+    animation: load 3s linear 1;
+}
+
+#loadingtext {
+    color: rgba(255, 255, 255, 0.33);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    align-self: flex-start;
+}
