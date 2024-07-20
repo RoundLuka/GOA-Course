@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background-color: rgba(77, 0, 128, 0.486);
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px rgb(107, 0, 128);
+    transition: transform 200ms linear;
+}
+/*transform is propety that is being applied transition, 200ms is transition duration, linear is transition timing function which
+remains constant*/
+
+#box:hover {
+    transform: translateY(200px) rotate(-43deg) skew(20deg,15deg) scale(1.4);
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(153, 0, 255);
+}
+
+/*translateY property div 200 px lower, rotate property rotates box counter clockwise by 43 degrees, 
+skew property skews it 20 degrees on x axis and 15 degrees on y axis, scale incereses its size by 1.4*/
+

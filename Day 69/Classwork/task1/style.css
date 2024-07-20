@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 25px solid gray;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loadbar {
+    border-radius: 50%;
+    width: 495px;
+    height: 495px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: circle 4s linear infinite;
+    background-color: black;
+}
+
+.box {
+    background-color: blue;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    
+}
