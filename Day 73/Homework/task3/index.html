@@ -8,6 +8,11 @@
 <body>
     <header>
         <div id="menu">
+            <a href="#" id="main-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </a>
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -44,13 +49,13 @@
         </div>
 
         <div id="menu-option">
-            <button>
+            <button id="add-blog">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                 Add Blog
             </button>
-            <button>
+            <button id="sign-up">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
                 </svg>
@@ -84,15 +89,56 @@
             </div>
             <div class="blog-post" id="blog2">
                 <div class="profile">
-
+                    <img src="./Images/luka.png" alt="luka pfp">
+                    <h4>John Doe
+                        <br>
+                        Certified Blogger
+                    </h4>
+                    <svg width="104" height="102" xmlns="http://www.w3.org/2000/svg"><path d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z"  fill-rule="nonzero"/></svg>
+                </div>
+                <div class="blog-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod fugit laborum ea illo architecto doloribus quos optio sapiente ratione, alias voluptates eum quidem necessitatibus! Perferendis hic illum sit voluptatibus?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magnam nulla molestias placeat repellendus ducimus a, quasi pariatur inventore sapiente aliquid fuga ut mollitia corporis, voluptatibus nihil. Quibusdam, quos sit?</p>
                 </div>
             </div>
             <div class="blog-post" id="blog3">
                 <div class="profile">
-
+                    <img src="./Images/luka.png" alt="luka pfp">
+                    <h4>John Doe
+                        <br>
+                        Certified Blogger
+                    </h4>
+                    
+                </div>
+                <div class="blog-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a accusamus, ut recusandae laborum accusantium iure consequatur officiis sint non necessitatibus ex molestias illum eveniet mollitia ea illo temporibus commodi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quasi amet, qui sint maxime reprehenderit ea optio accusamus totam, labore illum expedita omnis voluptas dicta! Porro aut excepturi ipsum alias.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ut quam velit debitis minima libero cum, est consectetur! Pariatur eos sed distinctio asperiores officia id error eum itaque hic recusandae.</p>
                 </div>
             </div>
         </div>
     </main>
+    <script>
+        let addBlog = document.getElementById("add-blog")
+        let signUp = document.getElementById("sign-up")
+
+        let blogs = 0
+
+        addBlog.onclick = function() {
+            blogs = blogs + 1
+            alert("Blog added")
+            console.log("Blog added")
+            console.log("Blogs number " + blogs)
+        }
+
+        let accounts = 0
+
+        signUp.onclick = function() {
+            accounts = accounts + 1
+            alert("Signed up")
+            console.log("Account created")
+            console.log("Account number " + accounts)
+        }
+    </script>
 </body>
 </html>

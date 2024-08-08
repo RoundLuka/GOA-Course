@@ -1,0 +1,21 @@
+<!-- შექმენით HTML-ის დოკუმენტი და დაამატეთ 2 პარაგრაფი, პირველ პარაგრაფს მიანიჭეთ უნიკალური id, 
+შემდეგ კი გახსენით script element-ი და წამოიღეთ კონკრეტული ელემენტი id-ის დახმარებით, შეცვალეთ 
+წამოღებული ელემენტის ვიზუალური მხარე, მაგალითად შიგთავსი და ფერი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="name-p">I am luka</p>
+    <p>I like coding</p>
+
+    <script>
+        let name = document.getElementById("name-p")
+        name.textContent = "Luka"
+        name.style.color = "green"
+    </script>
+</body>
+</html>
