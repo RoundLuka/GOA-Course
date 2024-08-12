@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h3>Registration</h3>
+    <!-- Form-->
+    <form id="formField">
+        <input type="text" name="username" id="fullName" placeholder="Full Name">
+        <br>
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <br>
+        <input type="password" name="pass" id="password" placeholder="Your Password">
+        <br>
+        <label for="color">Pick your favourite color</label>
+        <br>
+        <input type="color" name="color" id="color">
+
+        <!--Sumbit button, calling function -->
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <!--Linking javascript document -->
+    <script src="script.js"></script>
+</body>
+</html>
