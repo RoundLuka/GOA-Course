@@ -1,0 +1,9 @@
+3. Clear Form Fields
+Objective: Create a form with multiple input fields (e.g., name, email, and message). 
+Add a "Clear" button that, when clicked, clears all input fields.
+
+Steps:
+Create an HTML form with input fields for name, email, and a textarea for the message.
+Add a "Clear" button next to the submit button.
+Attach an event listener to the "Clear" button that clears the values of all input 
+fields when clicked.  
