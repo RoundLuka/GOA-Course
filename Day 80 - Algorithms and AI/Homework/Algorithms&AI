@@ -1,0 +1,21 @@
+Deepend knowledge of ASCI table
+
+Thought about another perspective at looking life expectancy in days
+
+Learnt more about signed magnitude representation of numbers
+
+Converting number to its opposite in memory
+
+Formula:
+
+-D = ~D + 1
+
+Inversion of number + 1
+
+Only exception maximal negative number (minimal number)
+
+Representation of negative number types:
+
+1.Sign magnitude   Formula: -(-D) = D
+2.1's compement    -D = ~D
+3.2's compement    -D = ~D + 1
