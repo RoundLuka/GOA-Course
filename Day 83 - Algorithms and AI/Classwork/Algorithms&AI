@@ -1,0 +1,26 @@
+Excess new way to represent negative numbers
+
+1.Sign magnitude   Formula: -(-D) = D
+2.1's compement    Formula: -D = ~D
+3.2's compement    Formula: -D = ~D + 1
+4.Excess           Formula: 2^(m-1)
+
+Levels of programming languages, layers to core 
+High level language -> interpretator -> core
+Low level language -> complier -> machine code
+
+Working on linux:
+
+-Created new directory
+-Wrote first "hello world" in C programming language
+-Made executable file named "gamarjoba" for my code
+-Run and compiled my first program in C using Linux Mate terminal
+-Viewed executable file inside and analyzed different sections
+
+Computer core:
+-Imaginary processor scheme
+-Arithmetic logical device (ALU)
+-Registers
+-Random Acesss Memory (RAM)
+-Storage Devices Disks (HDD/SSD)
+-Physical memory speed
