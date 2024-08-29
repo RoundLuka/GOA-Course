@@ -17,3 +17,12 @@ Creating C Program Steps
 -Result getting .i extension file that is directed after preprocessing
 -Compiling (on this stage from current file we get assembly file .s extension, -S key)
 -Assembling
+
+
+
+
+Commands:
+-ls -lh view  - files in directory
+-./filename   - run program
+-S -D -c      - keys
+-mkdir        - make directory
