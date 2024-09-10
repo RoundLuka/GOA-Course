@@ -1,0 +1,8 @@
+დავალება:
+დაწერეთ პროგრამა რომელიც გამოიტანს არსებული 5 ტიპის: signed char, short int, int, long int, long long int მინიმალურ და მაქსიმალურ მნიშვნელობებს
+
+signed char - value range -128 to 127
+short int - value range -32768 to 32767
+int - value range -2147483648 to 2147483647
+long int - value range -2147483648 to 2147483647
+long long int - value range -9223372036854775808 to 9223372036854775807

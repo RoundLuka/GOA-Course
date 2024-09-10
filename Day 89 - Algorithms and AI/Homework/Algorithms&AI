@@ -1,0 +1,13 @@
+Byte in C has to be at least 7 bits in order to contain all latin characters
+
+byte
+addressable unit of data storage large enough to hold anymember of the basic character
+set of the execution environment
+
+minimal data storage unit is proccessor's word (e.g 32 bit, 64 bit)
+
+
+Modified and compiled hello_world.c several times, tested working code, warnings and errors
+
+The printf function returns the number of characters transmitted, or a negative value if
+an output or encoding error occured

@@ -13,6 +13,11 @@
     font-family: Roboto;
 }
 
+#playerScore, #aiScore {
+    font-size: 30px;
+}
+
+
 #newGame {
     display: flex;
     justify-content: center;
@@ -29,6 +34,10 @@
     
     padding: 10px;
     margin: 30px;
+}
+
+#compChoice {
+    font-size: 30px;
 }
 
 #userInput {
@@ -49,6 +58,12 @@
     border: none;
 }
 
+.choice:hover {
+    transform: scale(1.1);
+    border: 3px dotted black;
+    box-shadow: 0 0 15px rgb(158, 136, 74);
+}
+
 .choice img {
     width: 200px;
     height: 200px;
@@ -57,6 +72,9 @@
 .choice h3 {
     font-size: 50px;
     font-family: Roboto;
+
+    position: relative;
+    bottom: 30px;
 }
 
 .userChoice {
