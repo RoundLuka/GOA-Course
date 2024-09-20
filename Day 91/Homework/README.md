@@ -80,5 +80,3 @@ I faced challenges in making the page fully responsive and wasn't able to comple
 
 - Frontend Mentor - [@RoundLuka](https://www.frontendmentor.io/profile/RoundLuka)
 - Twitter - [@Luka Gurgenidze](https://x.com/RoundyLuka)
-
-## Acknowledgments
