@@ -1,0 +1,34 @@
+Character count
+
+Created new directory charcount, for counting characters algorithm
+Initialized git, wrote code, compiled to symbolcount file and 
+executed symbol counting program
+
+
+created serperate branch for, to compile for loop version of
+symbol count program
+
+Line count
+
+Made directory for line counting program.
+Initialized git, compiled to xazebis_datvla 
+and executed line_count.c
+
+Word count
+
+Made directory  for word counting program.
+Initialized git, compiled to sityvebis_datvla 
+and executed word_count.c
+
+Also compiled word_count.c to gsityvebis_datvla
+using g keyword for debugging, installed gdb 
+debugger and interacted it for the first time.
+
+
+'', single quotes is used for literal symbols in c
+"", double quotes special for cstrings 
+
+tui - text user interface
+
+gdb -tui fileName - entering this in mate terminal while having gdb debugger installed
+will run code in gdb debugger

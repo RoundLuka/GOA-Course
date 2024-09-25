@@ -1,0 +1,74 @@
+Debian linux mate terminal bash commands
+mkdir dirName - Make directory
+mv currentDirir(*) targetDir - move items from current directory to target directory | * for all endings of starting name
+ls -lh - view directories
+cd - change directory 
+su - super user
+apt install - install package
+exit - exit super user
+kate fileName - open file in kate text editor
+
+
+GIT:
+-git init
+-git status - view branch
+-touch file - create file
+-git add . - add stage items, . stands for everything
+-git diff - displays difference between previous and current versions of code
+
+
+GIT LEVELS:
+-Nodes
+-Stage
+-Working space
+-Untracked storage
+
+The getc function
+
+Synopsis:
+
+#include <stdio.h>
+int getc(FILE * stream);
+
+Description:
+The getc function us equivalent to fgetc, except that if it is implemented as a macro, it
+may evaluate stream more then once, so the argument should never be an expression with
+side effects.
+
+The getchar function
+
+The getchar function is equivalent to getc with argument stdin
+
+Returns
+The getchar function returns the next character from the input stream pointed to by
+stdin. if the stream is at end-of-file, the end-of-file indicator for the stream is
+set and getchar returns EOF. if a read error occurs, the error indicator for the 
+stream is set and get char returns EOF.
+
+The fgetc function
+
+if the end-of-file indicator for input stream pointed to by stream is not set and a
+next character is present, the fgetc function obtains that character as an unsigned
+char converted to an int and advances associated file position indicator for the 
+stream (if defined).
+
+The ferror function returns nonzero if and only if the error indicator is set for stream
+
+Streams
+
+Input and output, whether to or from pyshical devices such as terminals and tape drives,
+or whether to or from files supported on structured storage devices, are mapped into
+logical data streams, whose properties are more uniform than their various inputs and
+outputs. Two forms of mapping are supported, for text streams and for binary streams.
+
+Input/Output <stdio.h>
+
+The header <stdio.h> defines several macros, and declares three types and many functions
+for performing input and output.
+
+FILE
+
+which is an object type capable of recording all information needed to control a
+stream, including its file position indicator, a pointer to its associated buffer
+(if any), an error indicator that records whether a read/write error has occured,
+and an end-of-file (EOF) indicator that records whether the end of file has been reached
