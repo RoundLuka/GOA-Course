@@ -1,0 +1,11 @@
+Task:
+
+How would you test the word count program? What kinds of
+input are more likely to uncover bugs if there are any?
+
+Soultion:
+
+To test word_count.c I would compile it then run in mate terminal
+If there are any bugs, inputs like only spaces or whitespaces which
+count isn't power of 4 might result in bug, also input ending with new line
+

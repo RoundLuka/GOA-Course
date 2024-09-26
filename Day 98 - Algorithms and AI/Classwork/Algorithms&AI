@@ -1,0 +1,50 @@
+Analyazed and compiled word_count.c into sityvebis_datvla
+then executed sityvebis_datvla executable file
+
+Preprocessed IN variable as 1 in word_count and OUT as 0
+used IN and OUT variable to represent states of program
+to check if we're reviewing word or are outside of word
+
+Reassiging state variable OUT if c (char) is space, new_line or tab
+becasue if char is any of these characters then we've started new word
+and if char was none of these characters then reassiging char IN
+because we haven't started new word as there's no blank serperating
+
+
+Also compiled word_count program to gsityvebis_datvla file
+for debugging
+
+Debugged digit counter algorithm in c
+
+history - mate terminal command that displays all stored terminal ran commands
+
+gdb bash commands:
+gdb -tui fileName - executing file with debugger
+enter - continue paging
+arrows - move command or code based on which window is selected
+focus (fs) - move arrow keys to work on different window
+cmd - mate terminal window
+src - gdb debugger window
+next (n) - switch between windows
+layout - change gdb debugger view
+winheight (wh) src (+/-) value - incerese or decerase window height
+start - run program
+display variable - Display variable value
+print value - outputs ASCI decimal representation of number
+print/x - outputs ASCI hexadecimal representation of number
+
+
+Debugger layout:
+1. code
+2. assembler
+3. code, assembler
+4. registry
+
+
+declaring varaible without initializing might result in unexcepted value
+default initializing variable might be different between computers based
+on what value was stored there 
+
+In order to create file that allows preprocessed macros to be
+treated as variables, there is need to reference special key
+while compiling -g3
