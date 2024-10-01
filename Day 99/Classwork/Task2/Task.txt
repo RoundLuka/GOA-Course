@@ -1,0 +1,2 @@
+2) შექმენით კლასი გამოიყენეთ ყველა ნასწავლი მასალა და ახსენით კომენტარებით, საჯარო და პირადული ველები, 
+set and get methods, static methods, static private fields or methods
