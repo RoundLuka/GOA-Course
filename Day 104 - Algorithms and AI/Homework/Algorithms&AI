@@ -1,0 +1,2 @@
+difference between macro and variable is that when we declare variable space is given for variable
+but when using variable with macros it doesn't use memory becasue when we create it, it has set value becomes constant
