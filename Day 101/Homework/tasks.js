@@ -297,3 +297,7 @@ let grades = new Map([
 let averageScore = Array.from(grades.values()).reduce((acc, score) => acc + score, 0) / grades.size;
 
 console.log(averageScore);
+
+// 1. **კლასი `Map`-ით და მეთოდით**: შექმენი კლასი `Library`, რომელსაც ექნება `Map`, რომელიც ინახავს წიგნის სახელებს და ავტორებს. დაამატე მეთოდი `addBook(title, author)`, რომელიც დაამატებს ახალ წყვილს `Map`-ში.
+
+class
