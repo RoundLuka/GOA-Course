@@ -1,0 +1,32 @@
+Great! Here's the project description without the solution, as requested.
+
+### Project: "GitHub User Search"
+
+**Goal**: Create a simple webpage that allows users to search for a GitHub username. Once a username is entered, the page will use the `fetch` API to retrieve the user's information from the GitHub API and display it on the page.
+
+#### Key Features:
+1. An input field where users can type a GitHub username.
+2. A button to trigger the search.
+3. Fetch data from GitHub’s user API endpoint (`https://api.github.com/users/{username}`).
+4. Display user information such as:
+   - Profile picture
+   - Username
+   - Bio
+   - Number of public repositories
+   - Link to the GitHub profile
+
+#### Project Breakdown:
+1. **HTML Structure**: Create a simple form that includes an input field for the GitHub username and a button to submit the search.
+   
+2. **JavaScript**: 
+   - Use the `fetch` function to get data from the GitHub API.
+   - Handle success and error scenarios (e.g., if a username doesn’t exist).
+   - Dynamically update the DOM to display the fetched data.
+
+3. **CSS (optional)**: Style the page to make it look neat and presentable.
+
+#### Resources:
+- **GitHub API Documentation**: [GitHub User API](https://docs.github.com/en/rest/users/users#get-a-user)
+- **Fetch API Documentation**: [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+This project will give you practice with working with APIs, handling JSON data, and dynamically updating the DOM using vanilla JavaScript. Let me know if you need further guidance on any step!
