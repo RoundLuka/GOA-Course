@@ -1,0 +1,30 @@
+### Project: "Movie Database Search"
+
+**Goal**: Create a webpage that allows users to search for movies by title. When a user enters a movie title, the app fetches movie data from an external API and displays information about the movie, such as its title, release date, plot, and poster.
+
+#### Key Features:
+1. An input field where users can type the name of a movie.
+2. A button to trigger the search for movie data.
+3. Fetch data from the **OMDb API** (`https://www.omdbapi.com/?t={movie_title}&apikey={API_key}`).
+4. Display movie information such as:
+   - Title
+   - Year of release
+   - Plot summary
+   - Poster image
+   - IMDb rating (optional)
+
+#### Project Breakdown:
+1. **HTML Structure**: Set up an input field for the movie title and a button to initiate the search.
+   
+2. **JavaScript**:
+   - Use the `fetch` function to get movie data from the OMDb API.
+   - Handle errors if the movie isn’t found (e.g., show a “movie not found” message).
+   - Dynamically update the DOM to display the fetched movie details.
+
+3. **CSS (optional)**: Style the page to make the movie information visually appealing, especially focusing on the poster and layout.
+
+#### Resources:
+- **OMDb API Documentation**: [OMDb API](http://www.omdbapi.com/)
+- **Fetch API Documentation**: [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+This project will help you practice working with APIs, handling errors, and updating the webpage dynamically based on user input and the fetched data.
