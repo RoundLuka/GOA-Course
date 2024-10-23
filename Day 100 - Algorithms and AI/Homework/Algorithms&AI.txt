@@ -1,0 +1,11 @@
+What I Learned:
+
+-Bytes and Addresses: A byte has an address, while an array does not. We can allocate arrays and work with them quickly due to their contiguous memory allocation.
+
+-Data Types and Structures: I explored array types and structure types in the C standard, focusing on how data types interact with data structures.
+
+-Arrays vs. Lists: I clarified the differences between arrays and linked lists, recognizing their respective advantages. Arrays store their elements next to each other in memory, making them convenient and fast for access. However, they have a fixed memory allocation, which can complicate adding or removing elements—making these operations cumbersome.
+
+-Linked Lists: In contrast, linked lists address this limitation. Each element contains its value and a pointer to the next element, allowing us to add or remove elements easily by simply updating pointers.
+
+-Practical Experience: I learned about linked lists in more depth and successfully compiled a function, digit_count, using the gcc compiler in C. I then analyzed and debugged the program using gdb.

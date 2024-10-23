@@ -1,0 +1,5 @@
+Overflowed stack in practice, gave array allocated memory then recursively called sum function 
+which had to count from 1 to given number, each recursive call consumed memory, when number
+went too high stack memory wasn't enough so program crashed
+
+In this practical example, the recursive sum function demonstrates how a stack overflow can occur due to excessive recursive calls. The function is designed to calculate the sum of all integers from 1 to a given limit. However, when the limit is set to a large value, such as 1,000,000, each recursive call consumes stack memory. As the recursion depth increases, the available stack space diminishes until it ultimately overflows, leading to a program crash.
