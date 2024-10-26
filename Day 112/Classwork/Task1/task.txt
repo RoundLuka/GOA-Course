@@ -1,0 +1,2 @@
+1) გამოიყენეთ https://dummyjson.com/docs/posts ეს API იმისათის რომ, შეძლოთ პოსტების წამოღება და დარენდერება, როგორც ფბზე ხდება  news feed. შექმენით navigation სადაც გექნებათ რამდენიმე ლინკი, News Feed, Registration, Authorization
+

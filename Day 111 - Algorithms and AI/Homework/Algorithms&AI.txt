@@ -10,3 +10,4 @@ In this analysis, we define:
 We've explored how the type of function—whether qualitative, exponential, or logarithmic—affects the relationship between data size and computational performance.
 
 
+Run python program "plot_logarithm.py" in linux programming python idle and analyzed it

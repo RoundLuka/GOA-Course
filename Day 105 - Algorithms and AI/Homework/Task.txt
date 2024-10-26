@@ -1,0 +1,22 @@
+დაადგინეთ სურათზე მოცემულ მეორე და მესამე ლოგიკური შედარებების ადგილების შეცვლით შეიცვლება თუ არა შედეგი (longest_line), მოიყვანეთ მაგალითები
+
+Yes, switching the order of the second and third conditions in this for loop could cause the loop to behave differently. Here’s why:
+
+In C, logical && conditions are evaluated from left to right. The moment any condition fails, the rest won’t be checked.
+
+Right now the loop goes like this:
+
+for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
+    s[i] = c;
+
+Each time, getchar() is called first, so c gets updated, and then the program checks if c is EOF or a newline. This sequence ensures the loop reads the latest character before moving on.
+
+This changes things, as c != '\n' is now checked before calling getchar(). If c wasn’t updated yet, it could use a previous character instead, making the loop skip an input character or stop early, depending on what’s in c.
+
+So in shor, changing the order might mess with input handling because it doesn’t update c consistently before checking for EOF or newline.
+
+
+
+
+
+

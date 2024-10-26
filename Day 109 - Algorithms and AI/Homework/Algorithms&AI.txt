@@ -1,0 +1,3 @@
+Recalled functions from math
+
+Learnt how to use desmos for graph visualization

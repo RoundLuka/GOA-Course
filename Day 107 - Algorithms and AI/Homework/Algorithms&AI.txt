@@ -1,0 +1,21 @@
+The key difference between a macro and a variable is that a variable occupies memory space when declared, as it holds a specific data value in memory. In contrast, a macro does not use memory; it simply replaces occurrences in the code with a predefined value during preprocessing, making it behave like a constant.
+
+A macro is a preprocessor directive that does not reserve memory because it is replaced directly with its set value in the code during preprocessing, making it effectively constant. Unlike variables, which occupy memory space when declared, macros are simply text replacements and do not allocate memory at runtime.
+
+'\0' represents null, indicating the end of a string with all trailing zeros.
+
+Debugged longest_len.c.
+
+When executing our program in the command interface, input flows as follows: Terminal → GDB → Program.
+
+Split longest_line.c into separate files, then linked and compiled them.
+
+Linked main.c, copy.c, get_line.c, and longest.h into the l_l compiled file to unify code and create the final program.
+
+Advantage: Compiling in separate files allows for easier debugging and more efficient recompiling of individual files when errors occur, saving time and resources compared to a single large file.
+
+Started making Makefile where we can associate commands to 1 custom command, also using uppercase letters
+we can name a variable, which can represent files
+
+Makefile's idea is to avoid writing compiling command every time using gcc
+instead we can create Makefile and call it once

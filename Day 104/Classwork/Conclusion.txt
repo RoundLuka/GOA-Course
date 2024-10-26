@@ -17,7 +17,6 @@ Asynchronous Execution: In contrast, asynchronous execution allows multiple task
 JavaScript technically operates on a single thread, meaning it can handle only one task at a time. However, through asynchronous techniques, such as callbacks, promises, and async/await, we can manage the order of tasks, enabling non-blocking execution and creating the appearance of multitasking.
 
 
-
-
+Stack overflow can occur if tasks are added to the stack faster than they are completed, leading to excessive memory usage. This typically indicates inefficient code, as well-written code should manage tasks at a rate that prevents stack overflow.
 
 
