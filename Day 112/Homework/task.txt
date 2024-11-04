@@ -1,1 +1,35 @@
-Project: Crypto Price Tracker
+Project: Recipe Finder
+Goal: Create a simple webpage that allows users to search for recipes based on an ingredient. The app will fetch recipe data from the Edamam API and display the results dynamically on the webpage. It will also utilize a library from npm to enhance functionality.
+
+Key Features
+Input Field: For users to enter an ingredient.
+Search Button: To trigger the recipe search.
+Display Recipes: Show recipe information such as title, ingredients, instructions, and an image.
+Error Handling: Display messages if no recipes are found or if there's an error with the API request.
+Library Integration: Use a library like Axios for making HTTP requests to the Edamam API.
+
+Project Structure
+recipe-finder/
+├── index.html               # Main HTML file
+├── package.json             # Project configuration file
+├── script.js                # Main JavaScript file for handling UI and API interaction
+└── recipeFetcher.js         # Module for fetching recipes from the Edamam API
+
+
+Steps to Set Up the Project
+Create the Project Folder: Name it recipe-finder and navigate into it.
+
+Initialize npm: Run npm init -y in the project folder to create a package.json file.
+
+Install Axios: Use the command npm install axios to add Axios to your project. This library will simplify HTTP requests.
+
+Create the HTML File: Set up a simple HTML structure with an input field, a button, and a section to display the results.
+
+Create the Recipe Fetcher Module: Write a function to fetch recipe data from the Edamam API using Axios. Use export to make this function available for import.
+
+Create the Main JavaScript File: Handle user input, call the recipe fetch function, and dynamically display the results on the page. Use import to bring in the recipe fetching functionality from the module.
+
+Resources
+Edamam Recipe API Documentation: Edamam API
+Axios Documentation: Axios
+Fetch API Documentation: MDN Fetch API
