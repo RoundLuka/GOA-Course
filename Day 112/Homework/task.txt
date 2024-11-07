@@ -1,35 +1,39 @@
-Project: Recipe Finder
-Goal: Create a simple webpage that allows users to search for recipes based on an ingredient. The app will fetch recipe data from the Edamam API and display the results dynamically on the webpage. It will also utilize a library from npm to enhance functionality.
+### Project: Crypto Price Tracker
 
-Key Features
-Input Field: For users to enter an ingredient.
-Search Button: To trigger the recipe search.
-Display Recipes: Show recipe information such as title, ingredients, instructions, and an image.
-Error Handling: Display messages if no recipes are found or if there's an error with the API request.
-Library Integration: Use a library like Axios for making HTTP requests to the Edamam API.
+#### Overview
+The Crypto Price Tracker app allows users to view current prices of various cryptocurrencies, like Bitcoin, Ethereum, and more. You can extend this to include features like historical price data, percentage changes over time, and sorting by different criteria (e.g., highest to lowest price).
 
-Project Structure
-recipe-finder/
-├── index.html               # Main HTML file
-├── package.json             # Project configuration file
-├── script.js                # Main JavaScript file for handling UI and API interaction
-└── recipeFetcher.js         # Module for fetching recipes from the Edamam API
+#### Requirements
+- **HTML**: For creating a search input and a display area for the results.
+- **CSS**: Basic styling for a clean and organized layout.
+- **JavaScript**: Use `async/await` to fetch data and update the UI.
+- **API**: Use a free cryptocurrency API like [CoinGecko](https://www.coingecko.com/en/api) or [CoinCap](https://coincap.io/).
 
+#### Steps to Build
+1. **Set Up the HTML Structure**:
+   - Create an input field for users to search for specific cryptocurrencies.
+   - Include a button to trigger the search.
+   - Add a section to display the fetched cryptocurrency data (price, market cap, 24h change, etc.).
 
-Steps to Set Up the Project
-Create the Project Folder: Name it recipe-finder and navigate into it.
+2. **Create the Fetch Function**:
+   - Write an `async` function that takes the cryptocurrency name as an argument, calls the API, and retrieves the data.
+   - Parse the JSON response and handle any potential errors.
 
-Initialize npm: Run npm init -y in the project folder to create a package.json file.
+3. **Render Data to the Page**:
+   - Write a function to dynamically display the cryptocurrency data, such as name, price, 24-hour price change, and market cap.
+   - Clear previous results on new searches.
 
-Install Axios: Use the command npm install axios to add Axios to your project. This library will simplify HTTP requests.
+4. **Add a Refresh Option** (Optional):
+   - Set an interval to refresh the displayed prices every few seconds.
 
-Create the HTML File: Set up a simple HTML structure with an input field, a button, and a section to display the results.
-
-Create the Recipe Fetcher Module: Write a function to fetch recipe data from the Edamam API using Axios. Use export to make this function available for import.
-
-Create the Main JavaScript File: Handle user input, call the recipe fetch function, and dynamically display the results on the page. Use import to bring in the recipe fetching functionality from the module.
-
-Resources
-Edamam Recipe API Documentation: Edamam API
-Axios Documentation: Axios
-Fetch API Documentation: MDN Fetch API
+#### Example API Call
+```javascript
+const fetchCryptoData = async (crypto) => {
+  try {
+    const response = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${crypto}`);
+    const data = await response.json();
+    renderCryptoData(data);
+  } catch (error) {
+    console.error("Error fetching crypto data:", error);
+  }
+};```
