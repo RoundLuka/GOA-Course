@@ -27,4 +27,4 @@ export {calculator, filter};
 
 // Default export, exporting function by its name "filter", when importing can change its name.
 // From each file can only use 1 default export
-// export default filter
+// export default filtera
