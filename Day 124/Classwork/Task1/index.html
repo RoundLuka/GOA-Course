@@ -1,0 +1,29 @@
+<!-- 1) გამოიყენეთ React, ReactDOM და Babel cdn ები და დააკავშირეთ თქვენს html ის ფაილს, შემდეგ შექმენით html ში ფესვი ელემენტი, ჯავასკრიპტის ფაილში jsx გამოყენებით შექმენით კომპონენტი/ნაწილი სადაც გამოიტანთ სათაურს, პარაგრაფებს და ღილაკებს, საბოლოოდ კი დარეენდერეთ გვერდზე ეს ობიექტები, კომენტარებიტ ახსენით რას აკეთე ს ყველა ის ბიბლიოთეკა რაც ჩამოვთვალეთ და ახსენით რა არის jsx -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Root element stand fors super parent element, as tree's root's analogy, everything is based off it-->
+    <main id="root">
+        
+    </main>
+    
+    <!--React module gives us access to jsx extenstion-->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    
+    <!--ReactDOM module is used to render objects written in react module syntax-->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--Babel's role is transpiler, to render react objects as normal vanila js objects-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel" src="index.js"></script>
+</body>
+</html>
