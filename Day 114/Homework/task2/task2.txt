@@ -1,0 +1,1 @@
+2) https://www.npmjs.com/package/superheroes დააინსტალირეთ ბიბლიოთეკა და გამოიძახეთ მასში მოცემული ფუნქცია

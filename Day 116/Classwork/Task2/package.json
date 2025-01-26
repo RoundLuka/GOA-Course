@@ -1,0 +1,15 @@
+{
+  "name": "superhero",
+  "version": "1.0.0",
+  "description": "First node js project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luka Gurgenidze",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
