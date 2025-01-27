@@ -1,0 +1,25 @@
+### **Book Library App**
+
+**Project Overview:**  
+Create a simple and easy-to-use **Book Library App** that lets users search for books, add them to their collection, and track their reading progress. Users can search for books by keywords, add them to their library, mark them as read or unread, and filter them based on their status. All data will be stored locally using React's `useState` hook and saved in `localStorage` so that it persists even after the page reloads.
+
+---
+
+### **Core Features:**
+
+- **Search for Books:**  
+  Use the Google Books API to search for books by keywords (e.g., title, author, genre). Display details like the title, author, cover image, and a short description.
+
+- **Add Books to Library:**  
+  Users can add books from the search results to their personal library, creating a digital bookshelf.
+
+- **Mark Books as Read/Unread:**  
+  Let users mark books as "read" or "unread" to track their reading progress.
+
+- **Filter by Read/Unread Status:**  
+  Users can filter books by their reading status (read or unread) to make it easier to organize their library.
+
+- **Persistent Data:**  
+  Store the user's library and reading status in `localStorage` so that the data is saved even after a page reload.
+
+---
