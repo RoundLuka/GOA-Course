@@ -1,0 +1,5 @@
+1) ისწავლეთ თეორია: გვ 154 ს.თოფურია 1, კომბინატორიკა
+
+ვისწავლე კომბინატორიკის თეორია
+
+Revised concepts reviwed before, such as sum, pairing, functions, big O notation
