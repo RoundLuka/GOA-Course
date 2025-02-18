@@ -1,0 +1,18 @@
+Day 137
+Project Idea: Task Manager
+A task management app where users can create, edit, delete, and organize tasks into categories.
+
+Features to Implement
+Add Tasks
+
+Allow users to input a task name and select a category (e.g., Work, Personal, Study).
+Use state to manage the list of tasks.
+Mark Tasks as Completed
+
+Include a checkbox or button to mark tasks as complete. Use state to toggle the completion status.
+Filter Tasks by Category
+
+Provide a way to delete a task. Update the state to remove the task from the list.
+Save and Load Tasks (Optional)
+
+Use localStorage to save the tasks so that they persist between page reloads.
