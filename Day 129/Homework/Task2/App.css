@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+
+.ProfileCard {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ProfileCard:hover {
+    transform: scale(1.05);
+}
+
+.ProfileCard p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.ProfileCard p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+}
