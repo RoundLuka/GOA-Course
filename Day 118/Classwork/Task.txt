@@ -1,0 +1,3 @@
+Completed
+
+https://www.codecademy.com/courses/learn-javascript-classes-and-modules/lessons/classes/exercises/inheritance-iii

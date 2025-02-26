@@ -1,0 +1,5 @@
+Finished ecmascript 6
+Started using new platform: Codecademy for learning
+Got introdouced to react, why we use it: because its fast compared to anything else
+Learned about parcel, packaging tool
+Learned what is jsx syntax, what is babel and what it's used for
