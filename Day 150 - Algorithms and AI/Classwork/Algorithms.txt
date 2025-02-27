@@ -1,0 +1,3 @@
+I analyzed binary_search
+Learned about arithmetic and geometric progressions
+
