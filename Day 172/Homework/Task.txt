@@ -1,0 +1,34 @@
+# Day 172
+### **React Project: Personal Portfolio Website**
+
+**Objective:**  
+Create a simple personal portfolio website with **React** and **React Router**, focusing on routing between different sections.
+
+---
+
+### **Pages to Implement:**
+
+1. **Home Page (`/`)**  
+   - Display a welcome message and introduce yourself briefly.  
+   - Include a navbar with links to other pages.
+
+2. **About Page (`/about`)**  
+   - Provide a short bio or background information about yourself.
+
+3. **Projects Page (`/projects`)**  
+   - List some of your favorite projects with brief descriptions (can be dummy content).  
+   - Each project name can be a link to more details (optional).
+
+4. **Contact Page (`/contact`)**  
+   - Simple contact form with fields for "Name", "Email", and "Message".  
+   - Show an alert when the form is submitted (no need for actual form submission).
+
+5. **Blog Page (`/blog`)** (Optional)  
+   - Simple list of blog post titles or links (hardcoded), or just a "coming soon" message.
+
+---
+
+### **Features:**
+
+- Use **React Router** to navigate between pages.
+- Add a **Navbar** to all pages for easy navigation.

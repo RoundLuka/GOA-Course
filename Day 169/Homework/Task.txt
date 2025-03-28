@@ -1,0 +1,34 @@
+**How to Implement Key Concepts:**
+
+1. **useState**:
+   - Use `useState` to manage the state of the product list (e.g., an array of product objects), the cart (e.g., an array of cart items), and user interactions such as quantity updates.
+   
+2. **useEffect**:
+   - Use `useEffect` to load products from an API or a static file on initial render.
+   - Use `useEffect` to load the saved cart from `localStorage` when the page first loads, ensuring the cart persists after page refresh.
+   
+3. **Custom Hooks**:
+   - Create a custom hook like `useCart` to manage cart operations like adding an item, removing an item, and updating the quantity.
+   
+4. **Context API**:
+   - Use Context API to manage the cart globally across different components. You can have a `CartContext` with actions such as `addToCart`, `removeFromCart`, `updateQuantity`, and the current cart state.
+   - Use `useContext` to access and manipulate the cart data throughout your components.
+
+**Suggested File Structure:**
+
+```
+src/
+  components/
+    ProductList.js
+    ProductItem.js
+    Cart.js
+    CartItem.js
+    CartSummary.js
+    Checkout.js
+  context/
+    CartContext.js
+  hooks/
+    useCart.js
+  App.js
+  index.js
+```
