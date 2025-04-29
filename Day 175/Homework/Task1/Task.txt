@@ -1,0 +1,3 @@
+1) HackerRank-ზე შეასრულეთ შემდეგი 3 პროექტი: Item List Manager, Code Review Feedback და Article Sorting
+
+https://www.hackerrank.com/domains/react?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=react

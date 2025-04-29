@@ -1,0 +1,10 @@
+Task 1: Product Filter List
+Description: Build a product listing page where users can filter products by categories (e.g., electronics, furniture, clothing). The list of products should only re-render when the filter criteria change (e.g., when a different category is selected). Use React.memo to memoize individual product components and useMemo to memoize the filtered product list to avoid unnecessary recalculations on each render.
+
+Requirements:
+
+Display a list of products with names, prices, and categories.
+
+Create a filter that allows users to filter products by category.
+
+Ensure the product list is efficiently updated when the category filter changes.
