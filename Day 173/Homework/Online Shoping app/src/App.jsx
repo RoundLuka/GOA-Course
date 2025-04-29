@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 
 // Pages
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 import Register from "./pages/Register";
 import Login from "./pages/Login.jsx";
 import Verification from "./pages/VerificationPage.jsx";

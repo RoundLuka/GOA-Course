@@ -59,7 +59,7 @@ const AdminPanel = () => {
         <main>
             <section>
                 <h2>Admin Panel</h2>
-                <p>Welcome to the admin panel</p>
+                <p>Welcome to the admin panel of online shopping app</p>
                 <p>Username: {user?.username}</p>
                 <p>Email: {user?.email}</p>
             </section>

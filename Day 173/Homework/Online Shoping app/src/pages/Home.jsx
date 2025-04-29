@@ -27,8 +27,8 @@ const Home = () => {
 
     return (
         <div>
-            <h1>This is Home Page</h1>
-            <p>Welcome to Home Page</p>
+            <h1>Shopping App</h1>
+            <p>Welcome to Online Shopping App</p>
 
             <section>
                 <h2>Products</h2>
