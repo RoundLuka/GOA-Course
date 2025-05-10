@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist",
+    "noEmit": false,
+    "checkJs": true,
+    "target": "es6",
+    "module": "es6",
+  },
+  "include": ["**/*.ts"]
+}
