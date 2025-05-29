@@ -5,4 +5,5 @@ Read 8 articles about backend:
 -what is api
 -authorization and authentication,
 -different back-end stacks,
--what is node.js and jso
+-what is node.js 
+-JSON
