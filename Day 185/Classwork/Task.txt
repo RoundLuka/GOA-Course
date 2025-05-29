@@ -1,0 +1,8 @@
+Read 8 articles about backend:
+-generally revised what is backend
+-web server 
+-how data is stored,
+-what is api
+-authorization and authentication,
+-different back-end stacks,
+-what is node.js and jso
