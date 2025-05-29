@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Registration</title>
+</head>
+<body>
+    <h1>Game Registration</h1>
+    
+    <form id="registrationForm">
+        <input type="text" id="characterName"  placeholder="Character" required/>
+        <br>
+        <input type="text" id="username"  placeholder="Username" required/>
+        <br>
+        <input type="password" id="password"  placeholder="Password" required/>
+        <br>
+        <select id="role" required>
+            <option value="" selected>Select a role</option>
+            <option value="Admin">Admin</option>
+            <option value="Moderator">Moderator</option>
+            <option value="Player">Player</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <script src="./dist/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Learned about typescript function type annotations
