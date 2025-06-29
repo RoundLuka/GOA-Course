@@ -1,0 +1,5 @@
+Hello, from data.txt file
+Learning use of readFileSync
+
+Data:
+1011011

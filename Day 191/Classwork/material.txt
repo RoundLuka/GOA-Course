@@ -1,0 +1,1 @@
+File system is organized node, that provides direct access to files unsing addresses
